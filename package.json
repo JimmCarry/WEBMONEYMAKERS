@@ -1,0 +1,21 @@
+{
+  "name": "html_css_javascript_tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/tailwind.css -o public/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "tailwindcss": "^2.1.1"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "sass": "^1.58.0"
+  }
+}
